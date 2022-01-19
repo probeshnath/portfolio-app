@@ -44,7 +44,7 @@ const About = () => {
                 </p>
               </Fade>
               <Fade bottom>
-                <a href="images/probesh.jpg" download={"images/probesh.jpg"}>
+                <a href="images/Probesh's Resume.pdf" download={"images/Probesh's Resume.pdf"}>
                   Download CV
                 </a>
               </Fade>
