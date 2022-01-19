@@ -1,0 +1,181 @@
+.contact {
+  // padding-bottom: 40px;
+  background-color: rgba(43, 23, 16, 0.39);
+  // overflow: hidden;
+  width: 100vw;
+  // height: 100vh;
+}
+svg.MuiSvgIcon-root.github {
+  font-size: 17px !important;
+}
+.contact_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common_div {
+  width: 350px !important;
+  margin-right: 20px;
+  height: 475px;
+}
+
+.paddingKombe {
+  margin-left: -45px;
+}
+.bottom_side {
+  padding: 0px 0px 30px 50px;
+
+  & div {
+    display: flex;
+    align-items: center;
+    padding: 3px 0 2px 0px;
+    justify-content: center;
+  }
+  h1 {
+    margin-left: 5px;
+    padding: 3px;
+    font-size: 26px;
+    color: white;
+  }
+  p {
+    font-size: 16px;
+    width: 300px;
+    padding: 1px;
+    color: #ddd;
+    margin-left: 5px;
+  }
+}
+.profile_icon {
+  color: orange;
+}
+.bottom_side img {
+  width: 84px;
+  border-radius: 50%;
+  margin-left: -33px;
+}
+
+// social icon
+.social_icon {
+  display: flex;
+  margin-left: -108px;
+  a {
+    padding: 5px 10px;
+    font-size: 20px !important;
+  }
+}
+.facebook {
+  color: #3b5998 !important;
+  font-size: 20px !important;
+}
+.instagram {
+  color: #8a3ab9 !important;
+  font-size: 20px !important;
+}
+.github {
+  color: #171515 !important;
+  font-size: 20px !important;
+}
+.linkedin {
+  color: #0077b5 !important;
+  font-size: 20px !important;
+}
+.youtube {
+  color: #ff0000 !important;
+  font-size: 20px !important;
+}
+.scroolbar {
+  width: 35px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  transform: translatex(50%);
+  right: 50%;
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+//  contact
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px 20px;
+  align-items: flex-start;
+}
+
+.contact_form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(233, 232, 232);
+}
+.contact_form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(233, 232, 232);
+}
+.contact_form button {
+  background: #2b2929;
+  color: orange;
+  transition: 0.4s ease-in;
+  border: 0.5px solid black;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+input::placeholder {
+  font-size: 13px;
+  font-family: unset;
+}
+textarea::placeholder {
+  font-size: 13px;
+  font-family: unset;
+}
+.contact_form button:hover {
+  background: transparent;
+  color: black;
+  border: 0.5px solid black;
+}
+.react-reveal.contact_form.common_div button {
+  margin: auto;
+}
+// Small devices (landscape phones, 576px and up)
+// @media (max-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+  .contact_wrapper {
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  .react-reveal.contact_form.common_div button {
+    margin-bottom: 20px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 768px) {
+  .common_div {
+    width: 350px !important;
+    margin-right: 20px;
+    padding: 20px 0px;
+  }
+}
+// @media (min-width: 1200px) { ... }
+@media (max-width: 1320px) {
+  .container h2 {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,129 @@
+.home_page {
+  background-image: url("https://images.unsplash.com/photo-1633113211821-6ac9c3d160a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 700px;
+  color: white;
+  display: flex;
+}
+.home_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.middle_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_wrapper h1 {
+  font-size: 64px;
+  /* padding-bottom: 20px; */
+  text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
+  font: 84px/1.1em "Cormorant Garamond", serif;
+}
+.home_wrapper span {
+  color: #fff;
+  font-size: 20px;
+}
+.home_wrapper div span:nth-child(2) {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  /* color: #fff; */
+  /* font-family: monospace; */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: 0.15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: 0.15em; Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .home_page {
+    background-position: center;
+  }
+
+  .home_wrapper h1 {
+    font-size: 42px !important;
+    padding-bottom: 8px !important;
+  }
+  .home_wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home_wrapper span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .home_wrapper div span:nth-child(2) {
+    font-size: 18px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .home_wrapper h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+
+  .home_wrapper span {
+    font-size: 16px;
+  }
+  .home_wrapper div span:nth-child(2) {
+    font-size: 19px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .home_wrapper h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+  }
+
+  .home_wrapper span {
+    font-size: 16px;
+  }
+  .home_wrapper div span:nth-child(2) {
+    font-size: 19px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1320px) {
+  .home_page {
+    height: 100vh;
+  }
+}

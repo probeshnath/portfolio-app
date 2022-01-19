@@ -1,0 +1,134 @@
+#count {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(150 141 141 / 52%),
+      rgb(25 21 24 / 70%)
+    ),
+    url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper_count {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.count-1:first-child {
+  margin-left: 80px;
+}
+.count-1 {
+  width: 300px;
+  padding-top: -50px;
+}
+.count-1 div {
+  display: flex;
+  /* justify-items: center;
+  align-items: center; */
+}
+.count-1 div img {
+  width: 70px;
+  color: #ddd;
+}
+.count-1 div span {
+  font-size: 50px;
+  color: rgb(219 219 219);
+  font-weight: bold;
+}
+.count-1 p {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(172, 161, 161);
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .count-1:first-child {
+    margin-left: 20px;
+  }
+  .count-1 {
+    width: 115px !important;
+  }
+  .wrapper_count {
+    width: 100vw;
+  }
+  .count-1 div span {
+    font-size: 27px !important;
+  }
+  .count-1 div img {
+    width: 40px !important;
+    color: #ddd;
+  }
+  .count-1 p {
+    font-size: 13px !important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .count-1:first-child {
+    margin-left: 20px;
+  }
+  .count-1 {
+    width: 150px;
+  }
+  .wrapper_count {
+    width: 100vw;
+  }
+  .count-1 div span {
+    font-size: 30px;
+  }
+  .count-1 div img {
+    width: 45px;
+    color: #ddd;
+  }
+  .count-1 p {
+    font-size: 15px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .count-1:first-child {
+    margin-left: 22px;
+  }
+  .count-1 {
+    width: 180px;
+  }
+  .wrapper_count {
+    width: 100vw;
+  }
+  .count-1 div span {
+    font-size: 32px;
+  }
+  .count-1 div img {
+    width: 50px;
+    color: #ddd;
+  }
+  .count-1 p {
+    font-size: 18px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .count-1:first-child {
+    margin-left: 25px;
+  }
+  .count-1 {
+    width: 200px;
+  }
+  .wrapper_count {
+    width: 100vw;
+  }
+  .count-1 div span {
+    font-size: 34px;
+  }
+  .count-1 div img {
+    width: 55px;
+    color: #ddd;
+  }
+  .count-1 p {
+    font-size: 20px;
+  }
+}

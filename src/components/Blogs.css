@@ -1,0 +1,120 @@
+.Blogs {
+  padding-bottom: 50px;
+}
+.container h2 {
+  font-size: 40px;
+  margin-bottom: 32px;
+  font-family: initial;
+  font-weight: inherit;
+}
+.container h2::after {
+  content: "";
+  width: 100px;
+  color: #ff4c60;
+  display: block;
+  border-bottom: 2px solid;
+  /* margin-left: 594px; */
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px 60px 0px;
+}
+.category li {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+/* blogs */
+.authProfilepic {
+  width: 33px !important;
+  border-radius: 50% !important;
+}
+.blog_footer div {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.blog_footer div div {
+  display: flex;
+  align-items: center;
+}
+.blog_footer div div span {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+.blog_footer div span {
+  font-size: 12px;
+  display: block;
+  text-align: right;
+}
+.blogs_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagewillHover {
+  cursor: pointer;
+}
+.single_Blog {
+  width: 350px;
+  border: 2px solid #ececec;
+  padding: 20px;
+  cursor: pointer;
+  margin: 12px;
+  box-shadow: -3px 5px 6px 0px #eaeaea;
+}
+.blog_footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.blog_footer h4 {
+  font-size: 24px;
+  color: orange;
+  margin: -5px 0px 10px 0px;
+}
+.single_Blog img {
+  width: 100%;
+  border-radius: 5px;
+}
+.main_part_hover {
+  width: 350px;
+  padding: 15px;
+  background: rgb(12 10 10 / 73%);
+  border-radius: 10px;
+}
+.main_part_hover h4 {
+  font-size: 20px;
+  color: orange;
+}
+.main_part_hover p {
+  font-size: 15px;
+  color: rgb(168, 162, 162);
+}
+.main_part_hover ul {
+  display: flex;
+  margin: 10px 0px;
+}
+.main_part_hover ul li {
+  padding: 3px;
+  background-color: orangered;
+  margin: 3px;
+  color: white;
+  border-radius: 3px;
+}
+.main_part_hover div button {
+  margin-right: 16px;
+  padding: 10px 20px !important;
+  font-size: 18px;
+  color: white;
+}

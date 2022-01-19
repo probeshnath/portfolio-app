@@ -1,0 +1,43 @@
+.ProcessofWork {
+  padding-bottom: 40px;
+}
+.single_process {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: -3px 0px 11px 0px #f4ecec;
+}
+.left {
+  padding: 0px 50px;
+}
+.left i {
+  font-size: 40px;
+  color: #ff45007d;
+}
+.right h4 {
+  font-size: 30px;
+  color: rgb(180, 174, 174);
+}
+.right p {
+  font-size: 15px;
+  padding: 2px 10px 3px 0px;
+  font-family: inherit;
+  color: #9c9292;
+}
+.page_title {
+  font-size: 40px;
+  margin-bottom: 32px;
+  font-family: initial;
+  font-weight: inherit;
+}
+.page_title::after {
+  content: "";
+  width: 215px;
+  color: orange;
+  display: block;
+  border-bottom: 2px solid;
+  margin-left: 595px;
+}

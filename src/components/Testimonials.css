@@ -1,0 +1,62 @@
+.testimonials {
+  padding-bottom: 50px;
+  background: aliceblue;
+}
+.container h2 {
+  font-size: 40px;
+  margin-bottom: 32px;
+  font-family: initial;
+  font-weight: inherit;
+}
+/* .about h2::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  height: 3px;
+  width: calc(100% - 70px);
+  background: #ff4c60;
+  z-index: 3;
+  transform: translateX(70px);
+  -webkit-transform: translateX(70px);
+  -moz-transform: translateX(70px);
+  -ms-transform: translateX(70px);
+  -o-transform: translateX(70px);
+} */
+
+.test_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.single_test {
+  width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+.top_test img {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 2px;
+}
+.top_test h3 {
+  font-size: 20px;
+  padding: 10px 0px 3px 0px;
+}
+.top_test p {
+  font-size: 14px;
+  padding: 0px 0px 30px 0px;
+  color: rgb(160, 154, 154);
+}
+.bottom_test {
+  box-shadow: 1px 3px 11px 0px #dddddd8c;
+  padding: 30px 50px;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+}
+@media (max-width: 1200px) {
+  .test_wrapper {
+    width: 100vw;
+  }
+}
