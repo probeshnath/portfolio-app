@@ -61,27 +61,35 @@ const Contact = () => {
 
                 <div className="social_icon">
                   <a
+                    rel="link"
                     target="_blank"
                     href="https://www.facebook.com/profile.php?id=100018341802138"
                   >
                     <FacebookIcon className="facebook" />
                   </a>
-                  <a target="_blank" href="https://github.com/probeshnath">
+                  <a
+                    rel="link"
+                    target="_blank"
+                    href="https://github.com/probeshnath"
+                  >
                     <GitHubIcon className="github" />
                   </a>
                   <a
                     target="_blank"
+                    rel="link"
                     href="https://www.instagram.com/probeshdeb/"
                   >
                     <InstagramIcon className="instagram" />
                   </a>
                   <a
+                    rel="link"
                     target="_blank"
                     href="https://www.linkedin.com/in/probesh-deb-nath-782487225/"
                   >
                     <LinkedInIcon className="linkedin" />
                   </a>
                   <a
+                    rel="link"
                     target="_blank"
                     href="https://www.youtube.com/channel/UCOI9Q9N-ZWHZYq3NFDeRplw"
                   >

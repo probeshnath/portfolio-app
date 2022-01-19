@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({ link, image, title }) => {
   return (
-    <a href={link} target="_blank">
+    <a href={link} rel="link" target="_blank">
       <div className="single_Project">
         <div className="imagewillHover">
           <img src={image} alt="" />
