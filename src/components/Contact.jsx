@@ -28,6 +28,7 @@ const Contact = () => {
                 style={{ border: 0 }}
                 allowfullscreen=""
                 loading="lazy"
+                title="My Area"
               ></iframe>
             </div>
             {/* </Fade>
