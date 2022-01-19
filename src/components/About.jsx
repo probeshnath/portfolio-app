@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import GetAppIcon from "@material-ui/icons/GetApp";
 import Fade from "react-reveal/Fade";
 
 const About = () => {

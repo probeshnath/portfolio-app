@@ -1,15 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import PersonIcon from "@material-ui/icons/Person";
-import EmailIcon from "@material-ui/icons/Email";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import DescriptionIcon from "@material-ui/icons/Description";
+
 import "./Contact.scss";
 
 const Home = () => {
